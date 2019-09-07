@@ -1,0 +1,16 @@
+//define the path
+defined('DS') ? null : define('DS', DIRECTORY_SEPARATOR);
+defined('SITE_ROOT') ? null : define('SITE_ROOT', DS.'home'.DS.'scheduli'.DS.'public_html'.DS.'payments');
+defined('CONFIG_PATH') ? null : define('CONFIG_PATH', SITE_ROOT.DS.'config');
+defined('LIB_PATH') ? null : define('LIB_PATH', SITE_ROOT.DS.'models');
+defined('MAIL_PATH') ? null : define('MAIL_PATH', SITE_ROOT.DS.'vendor');
+
+
+//Database 
+private $host = 'localhost';
+private $username = 'libeja';
+private $password = 'ci/05041/2013';
+private $dbname = 'payments';
+
+//Base url
+$url = "https://schedulizermarketing.com/payments/";
